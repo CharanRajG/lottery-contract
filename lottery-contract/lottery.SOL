@@ -37,7 +37,7 @@ contract lottery{
         }
 
         // selecting the winner
-        function winner()   public  {
+          function winner()   public  {
             uint r = random() % players.length ;
             address payable lucky = players[r];
 
@@ -49,7 +49,7 @@ contract lottery{
                 return lucky1;
         }
 
-        function adder() public {
+         function adder() public {
             
         }
         // maager approving the pool total to the winner
